@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 60px;
-  background-color: #f8f8f8;
+  background-color: #ecc6c6;
 }
 
 .navbar-heading {
@@ -21,7 +21,7 @@
 
 /* Footer styles */
 .footer {
-  background-color: #f8f8f8;
+  background-color: #dbb9b9;
   text-align: center;
   padding: 20px;
   margin-top: 5%;
@@ -42,11 +42,12 @@
   background-color: #ccc;
 }
 
-    /* Table styles */
-    .data-table {
-      width: 100%;
+     /* Table styles */
+     .data-table {
+      width: 80%;
+      margin: 0 auto; /* Center the table horizontally */
       border-collapse: collapse;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
       font-family: Arial, sans-serif;
     }
 
@@ -63,5 +64,12 @@
     }
 
     .data-table tbody tr:hover {
-      background-color: #f2f2f2;
+      background-color: #90c8da;
+    }
+    
+    body {
+      background-image: url('https://sports-forum.com/wp-content/uploads/2020/06/simple-gray-background-8449-8772-hd-wallpapers.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
     }
