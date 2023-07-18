@@ -2,21 +2,16 @@
 <html>
 <head>
   <title>Medals Data</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
- 
-  </style>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
-  <div class="contact-info">
-    <p>Name: Sudeep Mhetre</p>
-    <p>Email: er.sudeepmhetre@gmail.com</p>
-    <p>Contact: 7559484063</p>
-  </div>
-
+  <nav class="navbar">
+    <img width="40" height="40" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/40/external-olympics-running-flaticons-lineal-color-flat-icons-4.png" alt="external-olympics-running-flaticons-lineal-color-flat-icons-4"/>    <h1 class="navbar-heading">Olympic Medals Data</h1>
+  </nav>
   <div id="content">
-    <button id="tableViewButton">Table View</button>
-    <button id="chartViewButton">Chart View</button>
+    <button id="tableViewButton" class="switch-button active">Table View</button>
+    <button id="chartViewButton" class="switch-button">Chart View</button>
     <div id="tableContainer" style="display: none;">
       <!-- Table will be inserted here -->
     </div>
@@ -24,7 +19,11 @@
       <!-- Chart will be inserted here -->
     </div>
   </div>
-
+  <footer class="footer">
+    <p>Name: Sudeep Mhetre</p>
+    <p>Email: er.sudeepmhetre@gmail.com</p>
+    <p>Contact: 7559484063</p>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
   <script src="script.js"></script>
 </body>
